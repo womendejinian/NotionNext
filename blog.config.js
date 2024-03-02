@@ -17,9 +17,9 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '山东韩香福餐饮管理有限公司', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '山东韩香福餐饮是山东韩香福餐饮管理有限公司旗下品牌。 山东韩香福餐饮管理有限公司成立于2000年4月，在天津开设第一家餐厅，公司旗下门店主要分布在胶东半岛烟台、威海、青岛三个城市，未来公司将在山东省内其他城市进行拓展门店。', // 作者简介
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://hanxiangfu.vercel.app', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
