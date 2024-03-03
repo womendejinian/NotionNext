@@ -17,10 +17,10 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '山东韩香福餐饮管理有限公司', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '山东韩香福餐饮是山东韩香福餐饮管理有限公司旗下品牌。 山东韩香福餐饮管理有限公司成立于2000年4月，在天津开设第一家餐厅，公司旗下门店主要分布在胶东半岛烟台、威海、青岛三个城市，未来公司将在山东省内其他城市进行拓展门店。', // 作者简介
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '韩香福', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '韩香福旗下拥有”韩香福烤肉庄园”和“韩香福脊骨汤锅”2个餐饮品牌，是一家专业致力于韩国料理为主的餐饮公司。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://hanxiangfu.vercel.app', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '韩香福,山东韩香福餐饮管理有限公司,烤肉庄园,脊骨汤锅,韩香福烤肉庄园,韩香福脊骨汤锅', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
